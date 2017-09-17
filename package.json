@@ -1,5 +1,5 @@
 {
-  "name": "curry",
+  "name": "ck-curry",
   "version": "1.0.0",
   "description": "Simple ES6 curry functions",
   "main": "dist/index.js",
@@ -9,6 +9,10 @@
     "prepublish": "npm run build",
     "test": "rollup ./test/index.js --e tape --output.format cjs | node | tap-difflet",
     "play": "rollup ./test/index.js --output.format cjs | node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisknowles/ck-curry.git"
   },
   "keywords": [
     "curry",
