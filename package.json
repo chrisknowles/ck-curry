@@ -1,6 +1,6 @@
 {
   "name": "ck-curry",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple ES6 curry functions",
   "main": "dist/index.js",
   "module": "src/curry.js",

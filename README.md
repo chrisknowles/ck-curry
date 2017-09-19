@@ -5,12 +5,21 @@ Simple ES6 curry functions
 ## Usage
 
 ```
-$ npm install curry
+$ npm install ck-curry --save
+```
+
+### Node
+
+```javascript
+/// ES Modules
+import {curry, curryAll} from 'ck-curry'
+
+// node
+var curry = require("ck-curry").curry
+var curryAll = require("ck-curry").curryAll
 ```
 
 ```javascript
-import {curry, curryAll} from 'curry';
-
 let f = (a, b, c) => {
   console.log(a, b, c)
 }
@@ -47,4 +56,4 @@ g(1)(1)(1)
 
 ## License
 
-[MIT](LICENSE.md)
+MIT - see LICENSE.md
